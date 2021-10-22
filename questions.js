@@ -1,4 +1,4 @@
-let questions = [];
+
 let response = fetch("https://quizboot.herokuapp.com/random_upto_max/5", {
   mode: "no-cors",
   headers: {
