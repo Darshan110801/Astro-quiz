@@ -11,8 +11,7 @@ let response = fetch("https://quizboot.herokuapp.com/random_upto_max/5", {
   .then((resp) => {
     console.log(resp);
   });
-
-let questions = [
+questions = [
     {
     numb: 1,
     question: "What new element was discovered on the Moon?",
