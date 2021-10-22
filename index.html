@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      content="Astronomy Club of VNIT, Ashlesha invites you to gaze upon the heavens and beyond and see the unfolding of the cosmic miracle."
+      name="description"
+    />
+    <meta
+      content="astronomy club vnit,  astro club VNIT Nagpur, Ashlesha astronomy VNIT Nagpur,astro club vnit, astro club, astronomy,vnit Clubs, space clubs vnit"
+      name="keywords"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Astro - Quiz</title>
+    <link
+      href="https://github.com/Darshan110801/VNIT-Astronomy-Club-Website/blob/master/static/images/Astro1%20-%20Copy.jpg?raw=true"
+      rel="shortcut icon"
+    />
+    <link rel="shortcut icon" href="ideas.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="font-family: 'Roboto', sans-serif !important">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light"
+      style="background-color: #282a35 !important"
+    >
+      <a class="navbar-brand" href="/"
+        ><strong style="color: gold">Astronomy Club, VNIT</strong></a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.astrovnit.club/"
+              ><strong style="color: wheat"><b>Home </b></strong
+              ><span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.astrovnit.club/"
+              ><strong style="color: wheat"><b>About Us</b></strong
+              ><span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.astrovnit.club/events"
+              ><strong style="color: wheat"><b>Events</b></strong
+              ><span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.astrovnit.club/articles"
+              ><strong style="color: wheat"><b>Articles</b></strong
+              ><span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item active">
+            <a
+              class="nav-link"
+              href="https://eshanojas2916.github.io/Solar_System/index.html"
+              ><strong style="color: wheat"><b>Solar System</b></strong
+              ><span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.astrovnit.club/apod"
+              ><strong style="color: wheat"><b>Astro-resources</b></strong
+              ><span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#" target="_blank"
+              ><strong style="color: wheat"><b>Astro-quiz</b></strong
+              ><span class="sr-only"></span
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+    <!-- Info Box -->
+    <div class="info_box">
+      <div class="info-title"><span>Some Rules of this Quiz</span></div>
+      <div class="info-list">
+        <div class="info">
+          1. You will have only <span>10 seconds</span> per each question.
+        </div>
+        <div class="info">
+          2. Once you select your answer, it can't be undone.
+        </div>
+        <div class="info">
+          3. You can't select any option once time goes off.
+        </div>
+        <div class="info">
+          4. You can't exit from the Quiz while you're answering.
+        </div>
+        <div class="info">
+          5. Your Score will be upgraded by 1 point after every correct answer.
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="quit">Exit Quiz</button>
+        <button class="restart">Continue</button>
+      </div>
+    </div>
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+      <header>
+        <div class="title">Astronomy Quiz</div>
+        <div class="timer">
+          <div class="time_left_txt">Time Left</div>
+          <div class="timer_sec">10</div>
+        </div>
+        <div class="time_line"></div>
+      </header>
+      <section>
+        <div class="que_text">
+          <!-- Here I've inserted question from JavaScript -->
+        </div>
+        <div class="option_list">
+          <!-- Here I've inserted options from JavaScript -->
+        </div>
+      </section>
+      <!-- footer of Quiz Box -->
+      <footer>
+        <div class="total_que">
+          <!-- Here I've inserted Question Count Number from JavaScript -->
+        </div>
+        <button class="next_btn">Next Que</button>
+      </footer>
+    </div>
+    <!-- Result Box -->
+    <div class="result_box">
+      <div class="icon">
+        <i class="fas fa-crown"></i>
+      </div>
+      <div class="complete_text">You've completed the Quiz!</div>
+      <div class="score_text">
+        <!-- Here I've inserted Score Result from JavaScript -->
+      </div>
+      <div class="buttons">
+        <button class="restart">Replay Quiz</button>
+        <button class="quit">Quit Quiz</button>
+      </div>
+    </div>
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="questions.js"></script>
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="script.js"></script>
+  </body>
+</html>
