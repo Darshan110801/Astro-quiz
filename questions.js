@@ -1,3 +1,17 @@
+let questions = [];
+let response = fetch("https://quizboot.herokuapp.com/random_upto_max/5", {
+  mode: "no-cors",
+  headers: {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": true,
+  },
+})
+  .then((res) => res.json())
+  .then((resp) => {
+    console.log(resp);
+  });
+
 let questions = [
     {
     numb: 1,
